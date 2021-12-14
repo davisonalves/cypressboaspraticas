@@ -18,6 +18,7 @@ describe('Flaky tests bad practice', () => {
 
       cy.contains('p','Loading ...')
         .should('be.visible')
+        
       cy.contains('p','Loading ...')
         .should('not.exist')
 
